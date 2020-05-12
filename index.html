@@ -1,1 +1,86 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel = "stylesheet" type="text/css" href="css/main.css"/>
+     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#E0E4CE', '#2D3839', '#E0E4CE', 'whitesmoke', '#000'],
+            });
+        });
+    </script>
+
+    <style>
+        .section{
+            font-size: 6em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section" id ="brucewillis">
+            <header>
+                   
+                    <div class="details fadeIn" style="-webkit-animation-delay:0.3s;">
+                      <h1 class="fadeIn">Shivani Negi is</h1>
+                      <h1><span class="element"></span></h1>
+                      <div><span class="blink_me"><i class="fa fa-chevron-down"></i></span>
+                     <!--  <h4>currently based in Atlanta, GA.</h4> -->
+<!--                       <hr> -->
+                    </div>
+                </header>
+        </div>
+
+
+        <div class="section" id="social">
+          <div><img src= "img/me_winnie.jpg" ></img></div>
+            <h4>Internet Places</h4>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/0BwbTzcrU7DDrQm95dHZybVd4Y00/view?usp=sharing"><i class="fa fa-file-text"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/shivanisnegi"><i class="fa fa-linkedin "></i></a></li>
+                <li><a href="http://twitter.com/imshivs"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://github.com/imshivs"><i class="fa fa-github "></i> </a></li>
+            </ul>
+            <div><span class="blink_me"><i class="fa fa-chevron-down" id="chevron"></i></span></div>
+<!--             <div class="slide">Section 2 Slide 1</div>
+            <div class="slide">Section 2 Slide 2</div>
+            <div class="slide">Section 2 Slide 3</div> -->
+        </div>
+
+
+        <div class="section" id="email-me">
+<!--           <hr> -->
+          <img src="img/click_arrow.png">
+          <a href="mailto:negishivs@gmail.com" class="mail-me-dawg">Email Me Things</a>
+            <b>Questions, smoothie recipes or anything really.</b>
+<!--             <hr> -->
+        </div>
+    </div>   
+
+      <script src="js/typed.js"></script>
+        <script>
+  $(function(){
+      $(".element").typed({
+        strings: ["an aspiring web developer", "a tinkerer", "an avid Blazers fan","a mobile fanatic", "a rising junior at Georgia Tech", "a budding entreprenuer", "currently based in Atlanta, GA"],
+        typeSpeed: 0
+      });
+  });
+</script>
+         
+</body> 
+</html>
