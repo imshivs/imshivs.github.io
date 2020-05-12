@@ -5,9 +5,9 @@ description: >
 author: Alex Carpenter
 email: youemail@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://alexcarpenter.github.io" # the base hostname & protocol for your site
-twitter_username: hybrid_alex
-github_username:  alexcarpenter
+url: "https://imshivs.github.io" # the base hostname & protocol for your site
+twitter_username: imshivs
+github_username:  imshivs
 
 # Build settings
 include: [_pages]
