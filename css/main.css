@@ -20,7 +20,7 @@ Copyright (c) 2013 Daniel Eden
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
+
 .animated, * {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -42,7 +42,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   40% {
     -webkit-transform: translateY(-30px);
-    transform: translateY(-30px); }
+    transform: translateY(-20px); }
 
   60% {
     -webkit-transform: translateY(-15px);
@@ -2576,6 +2576,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
+*/
 
 html, body {
   height: 100%;
@@ -2602,7 +2603,7 @@ h1{
   font-family: "Fjalla One",sans-serif;
   font-style:bold;
   /*font-weight: bolder;*/
-  color: #114D4D; }
+  color: #008B8B; }
   h2{
     font-family: "Cantarell";
   font-weight: bolder; 
@@ -2637,7 +2638,7 @@ a {
     #brucewillis i {
     margin-left: 45vw;
     font-size: 5vw;
-    color: #114D4D;
+    color: #008B8B;
   }
   #brucewillis header {
         position: relative;
@@ -2646,10 +2647,10 @@ a {
 /*  background: url("/img/me_winnie.jpg") center bottom no-repeat;
   background-size: 32%;*/}
     #brucewillis header h1 {
-        line-height: 15vw;
-  font-size: 8vw;
+        line-height: 10vw;
+  font-size: 7vw;
   margin: -10;
-  margin-top: -5%;}
+  margin-top: -10%;}
    /* #brucewillis header .details {
       position: absolute;
       top: 25%;
@@ -2684,13 +2685,12 @@ a {
 }
 
    #social #chevron {
-    margin-left: 1.5vw;
 /*    margin-top: -5vw;*/
     font-size: 5vw;
-    color: #E0E4CE;
+    color: white;
   }
 #social img{
-  width: 25vw;
+  width: 22vw;
   padding-top: 2vw;
   padding-bottom:-5vw;
   border-radius:30vw; 
@@ -2754,11 +2754,12 @@ a {
 #social h3{
   font-family: sans-serif;
 }
+
 #social h4{
   font-family: Fjalla One;
-  color: #E0E4CE;
-  font-size: 8.5vw;
-  margin: -1.5vw;
+  color: white;
+  font-size: 4vw;
+  margin: .2vw;
 }
 #social hr {
   border: none;
@@ -2783,14 +2784,14 @@ a {
   #social ul li a i { 
    display: block;
   background: #205D7A;
-  color: #E0E4CE;
-  width: 11.8vw;
-  height: 5.2vw;
+  color: white;
+  width: 6.5vw;
+  height: 3vw;
   /* border-radius: 6vw; */
-  font-size: 3.5vw;
+  font-size: 2.2vw;
   text-align: center;
   margin-top: 0vw;
-  padding-top: 2vw;
+  padding-top: 1vw;
   }
    
   #social i {
@@ -2836,7 +2837,7 @@ a {
   font-family: "Cantarell"}
   #email-me a.mail-me-dawg {
     font-size: 9vw;
-    color: #27191C;
+    color: #008B8B;
     font-weight: bold;
     letter-spacing: -0px;
     display: inline-table;
@@ -2844,7 +2845,7 @@ a {
     #email-me hr {
        border: none;
   height: 3px;
-  background: #232323;
+  background: #008B8B;
 /*  width: 8vw;*/
   margin: 30vw auto; 
     }
@@ -2866,7 +2867,7 @@ a.archive {
   }
 
      #social #chevron {
-    margin-left: 1.5vw;
+    margin-left: 0vw;
     margin-top: 10vw;
     font-size: 5vw;
     color: #E6E5E3;
@@ -2887,18 +2888,15 @@ display: block;
   font-family: Fjalla One;
   font-style:  initial;
   color: white;
-  font-size: 9.5vw;
-  margin:-1.5vw;
+  font-size: 9vw;
+  margin:0vw;
 }
   #social h4 {
     margin-bottom: -1vw;
   }
  
 
-  @media only screen and (min-width: -100px) and (max-width:580px) {
-  #social h4 {
-      margin-bottom: -10vw;
-  margin-top: -2vw; }
+
 /*      font-size: 5vw;
       ##E6E5E3-space: nowrap;
       letter-spacing: 0;
@@ -2986,7 +2984,8 @@ display: block;
     #brucewillis header h1 {
       font-size:12vw;
       letter-spacing: -.5vw;
-      margin-top: -15vw; }
+      margin-top: -15vw; 
+      line-height: 15vw;}
     #brucewillis header h3 {
       letter-spacing: 0;
       font-size: 4.9vw;
