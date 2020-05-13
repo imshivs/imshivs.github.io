@@ -1,0 +1,9 @@
+{
+  "name": "my-web-app",
+  "description": "personal site",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "swank --port $PORT"
+  }
+
+}
